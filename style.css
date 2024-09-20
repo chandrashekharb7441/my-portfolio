@@ -68,6 +68,7 @@ nav{
 
 #homepage{
     display: flex;
+    flex-wrap: wrap;
     height: 680px;
     width: 100%;
     background-color: #F0FFFF;
@@ -109,7 +110,7 @@ nav{
     height: 20em;
     width: 20em;
     border-radius: 50%;
-    margin-left: 500px;
+    margin-left: 450px;
     box-shadow: 0 0 50px green;
 }
 .Home img:hover{
@@ -122,6 +123,16 @@ nav{
     margin-right: 0.2em;
     margin-top: 10px;
     
+}
+
+.resume{
+    margin-top:13em;
+    background-color: rgb(197, 197, 139);
+    border-radius: 1em;
+    padding: 0.4em;
+    text-decoration: none;
+    width: 7em;
+    font-size: 2em;
 }
 
 #Aboutpage{
