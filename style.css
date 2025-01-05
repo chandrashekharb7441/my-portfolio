@@ -216,7 +216,7 @@ nav{
     height: 250px;
     width: 1100px;
     background-color:#e5e7e9;
-    background-image: url(collage_p.jpeg);
+    background-image: url(IMG/collage_p.jpeg);
     background-repeat: no-repeat;
     background-size: 250px 250px;
     border-radius: 10px;
@@ -269,7 +269,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: 550px;
-    width: 800px;
+    width: 1000px;
     border: 0.5px solid black;
     border-radius: 5px;
     box-shadow: 2px 3px 5px gray;
@@ -293,9 +293,15 @@ nav{
     height:240px;
     width: 220px;
 }
-#upcoming{
-    opacity: 0.3;
+.boxx h5{
+    position: absolute;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 80px;
 }
+/* #upcoming{
+    opacity: 0.3;
+} */
 #certifications{
     height: 675px;
     width: 100%;
