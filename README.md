@@ -1,2 +1,2 @@
-↗ https://chandrashekharportfolionetlifyapp.netlify.app/
+↗ [https://chandrashekharportfolionetlifyapp.netlify.app/](https://portfoliochandrashekhar.netlify.app/)
 A personal portfolio website created using HTML and CSS to showcase my skills, projects, and experience as a front-end developer. The design is clean and modern, with a focus on simplicity and readability, providing a smooth browsing experience.
