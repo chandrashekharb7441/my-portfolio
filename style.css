@@ -126,13 +126,13 @@ nav{
 }
 
 .resume{
-    margin-top:13em;
+    /* margin-top:13em; */
     background-color: rgb(197, 197, 139);
     border-radius: 1em;
     padding: 0.4em;
     text-decoration: none;
-    width: 7em;
-    font-size: 2em;
+    /* width: 7em; */
+    /* font-size: 2em; */
 }
 
 #Aboutpage{
@@ -329,14 +329,21 @@ nav{
 }
 .c_box{
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Stack children vertically */
     align-items: center;
-    height: 660px;
+    gap: 20px; /* Optional spacing between certificates */
+    height: auto; /* Remove fixed height */
+    padding-bottom: 20px;
 }
 .c_box img{
     height: 290px;
     width: 250px;
     margin-bottom:-240px
+}
+#java_ibm img{
+    padding-top: 10px;
+    height: 280px;
+    width: 290px;
 }
 .c_box h1{
     color:#7b241c; 
@@ -352,6 +359,7 @@ nav{
     border-radius: 5px;
     text-decoration: none; 
     margin-left: 10em;
+    color: #002057;
 }
 #apdf:hover{
     box-shadow: 3px 2px 7px #041a40;
